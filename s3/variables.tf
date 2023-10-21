@@ -2,7 +2,7 @@
 variable "aws_region" {
   type        = string
   default     = "us-east-1"
-  description = "Name to be used on all the EKS Cluster resources as identifier."
+  description = "Name to be used on all the S3 resources as identifier."
 }
 
 variable "default_tags" {
